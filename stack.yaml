@@ -1,15 +1,17 @@
-description: Describe your stack explaining its purpose
+description: Provisione recursos em sua infraestrutura de uma forma fácil e descomplicada
 name: localiza-runtime-stack
-display-name: localiza-runtime-stack
+display-name: Runtime Stack
 picture: stack.png
-category: backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
+category: Infrastructure # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
 compatibility: # Put a list of technologies compatible with the stack
-  - java
-  - spring
+  - AWS
 technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies 
-  - docker 
+  - AWS
+  - Docker
+  - DynamoDB
+  - EKS 
 about: docs/about.md
 use-cases:
-  - title: Use Case Title
+  - title: AWS DynamoDB
     content: docs/use-case.md
     stackfile: stackfiles/default.yaml

@@ -1,14 +1,4 @@
 type: app
-description: Default stackfile usecase description
-# template used to create the project
-template: localiza-runtime-stack/<template-name>
-inputs:
-  some_input: value
-# list of plugins to be applied after project creation
+description: Caso de uso para aprovisionar DynamoDB na AWS.
 plugins:
-  - plugin: localiza-runtime-stack/<plugin-name>
-    inputs:
-      some_input: value
-      some_list:
-        - item1
-        - item2
+  - plugin: localiza-runtime-stack/runtime-dynamodb-plugin
