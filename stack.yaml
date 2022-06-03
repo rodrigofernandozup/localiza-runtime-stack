@@ -2,7 +2,7 @@ description: Provisione recursos em sua infraestrutura de uma forma fácil e des
 name: localiza-runtime-stack
 displayName: Runtime Stack
 picture: "stack.png"
-category: Infrastructure # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
+category: SRE # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
 compatibility: # Put a list of technologies compatible with the stack
   - AWS
 technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies 
