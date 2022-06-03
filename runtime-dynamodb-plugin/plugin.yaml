@@ -84,6 +84,4 @@ useCase: docs/use-case.md
 
 implementation: docs/implementation.md
 
-technologies: 
-  - AWS 
-  - DynamoDB
+technologies: ["AWS DynamoDB"]
