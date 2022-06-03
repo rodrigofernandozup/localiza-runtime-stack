@@ -1,15 +1,13 @@
 description: Provisione recursos em sua infraestrutura de uma forma fácil e descomplicada
 name: localiza-runtime-stack
-display-name: Runtime Stack
-picture: stack.png
+displayName: Runtime Stack
+picture: "stack.png"
 category: Infrastructure # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
 compatibility: # Put a list of technologies compatible with the stack
   - AWS
 technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies 
-  - AWS
   - Docker
-  - DynamoDB
-  - EKS 
+  - AWS DynamoDB
 about: docs/about.md
 use-cases:
   - title: AWS DynamoDB
